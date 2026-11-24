@@ -12,6 +12,13 @@ Instead of testing substrings (O(n³)) or filling a DP table (O(n²) *space*), e
 
 **Complexity:** O(n²) worst case, O(1) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
